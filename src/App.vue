@@ -1,0 +1,22 @@
+<script setup></script>
+
+<template>
+  <div class="app-container">
+    <Suspense>  
+    <RouterView />
+    </Suspense>
+  </div>
+</template>
+
+<style scoped>
+/* *,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: purple;
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+} */
+</style>
